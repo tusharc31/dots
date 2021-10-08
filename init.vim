@@ -26,6 +26,8 @@ if (empty($TMUX))
   endif
 endif
 colorscheme gruvbox
+
+"Keybindings
 map <silent> <C-n> :NERDTreeFocus<CR>
 
 "General settings
