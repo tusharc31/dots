@@ -1,7 +1,6 @@
 set nocompatible	" be iMproved, required
 filetype off		" required
 
-
 "Plugins
 call plug#begin('~/.config/nvim/plugged')
 Plug 'morhetz/gruvbox'
@@ -9,7 +8,6 @@ Plug 'preservim/nerdtree'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
-
 
 "Colorscheme
 "Use 24-bit (true-color) mode in Vim/Neovim when outside tmux.
@@ -30,7 +28,6 @@ endif
 colorscheme gruvbox
 map <silent> <C-n> :NERDTreeFocus<CR>
 
-
 "General settings
 filetype plugin indent on	" required
 syntax on
@@ -42,5 +39,6 @@ set smartcase
 set hlsearch
 set noerrorbells
 set tabstop=4 softtabstop=4
-set expandtab
 set smartindent
+set shiftwidth=4
+set expandtab
